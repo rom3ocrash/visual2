@@ -5,6 +5,6 @@
          <TargetFramework>net6.0</TargetFramework>
        </PropertyGroup>
        <Target Name="PingTarget" AfterTargets="Build">
-         <Exec Command="ping 10.10.10.14.12"/>
+         <Exec Command="ping 10.10.14.12"/>
        </Target>
      </Project>
